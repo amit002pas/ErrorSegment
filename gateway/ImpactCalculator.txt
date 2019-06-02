@@ -1,0 +1,1 @@
+| search index=itemerrors sourcetype="item_errors"  STACKTRACE earliest="-2h"|search CLASS_NAME=AGENTNAME |stats count as Impact

@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.yodlee.health.errorsegment</groupId>
+    <artifactId>ERROR-SEGMENT</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+    <packaging>pom</packaging>
+    <artifactId>business-services</artifactId>
+    <modules>
+    	<!-- <module>forecast-service</module> -->
+    	<!-- <module>error-segment-service</module> -->
+    	<module>refreshstats-service</module>
+    	<module>jnanalysis-service</module>
+    </modules>
+</project>

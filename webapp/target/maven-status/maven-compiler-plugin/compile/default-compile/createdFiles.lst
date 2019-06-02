@@ -1,0 +1,6 @@
+com\yodlee\health\errorsegment\app\config\JerseyConfig.class
+com\yodlee\health\errorsegment\app\MyConfiguration.class
+com\yodlee\health\errorsegment\app\RtdaApp.class
+com\yodlee\health\errorsegment\app\config\AppConfiguration.class
+com\yodlee\health\errorsegment\aop\TimeZoneTest.class
+com\yodlee\health\errorsegment\aop\AopTracing.class

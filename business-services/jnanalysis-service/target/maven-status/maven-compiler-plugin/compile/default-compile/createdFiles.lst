@@ -1,0 +1,10 @@
+com\yodlee\iae\health\jnanalysis\service\JNSyntheticBugAnalysisServiceImpl.class
+com\yodlee\iae\health\jnanalysis\util\JuggernautAnalysisConstants.class
+com\yodlee\iae\health\jnanalysis\service\JNBugzillaBugAnalysisService.class
+com\yodlee\iae\health\jnanalysis\steps\JuggernautAttachmentStep.class
+com\yodlee\iae\health\jnanalysis\steps\ServiceIO.class
+com\yodlee\iae\health\jnanalysis\steps\NewBugCollectorStep.class
+com\yodlee\iae\health\jnanalysis\steps\JuggernautAnalyserStep.class
+com\yodlee\health\errorsegment\jnbugreanalysis\DateFilter.class
+com\yodlee\health\errorsegment\jnbugreanalysis\ProcessJNOrphicSimilarBugs.class
+com\yodlee\iae\health\jnanalysis\steps\BugDetailsCollectorStep.class

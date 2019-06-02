@@ -1,0 +1,1818 @@
+[
+    {
+        "bucketId": 1,
+        "errorCode": "401",
+        "itemList": [
+            {
+                "cacheItemId": "10132040",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.163",
+                "time": "12 Feb 2018 18:47:01",
+                "stacktrace": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.49.1', revision: '808c23b0963853d375cbe54b90bbd052e2528a5"
+            },
+            {
+                "cacheItemId": "18907879",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.73",
+                "time": "12 Feb 2018 05:03:59",
+                "stacktrace": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.49.1', revision: '808c23b0963853d375cbe54b90bbd052e2528a5"
+            }
+        ]
+    },
+    {
+        "bucketId": 2,
+        "errorCode": "401",
+        "itemList": [
+            {
+                "cacheItemId": "10049924",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.103",
+                "time": "12 Feb 2018 15:22:47",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.GatherException: Page Load request has Timed out {} \n\tat yodlee.gather.YBrowser.get(YBrowser.java:870)\n\tat yodlee.gather.YBrowser.get(YBrowser.java:804)\n\tat y"
+            }
+        ]
+    },
+    {
+        "bucketId": 3,
+        "errorCode": "401",
+        "itemList": [
+            {
+                "cacheItemId": "10036762",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.163",
+                "time": "12 Feb 2018 05:17:03",
+                "stacktrace": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.49.1', revision: '808c23b0963853d375cbe54b90bbd052e2528a54', time: '2016-01-21 09:37:52'\nSystem info: host: 'SLUK"
+            }
+        ]
+    },
+    {
+        "bucketId": 4,
+        "errorCode": "402",
+        "itemList": [
+            {
+                "cacheItemId": "10133851",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.114",
+                "time": "12 Feb 2018 18:36:47",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Please enter your Card information to retrieve your User ID and reset your Password\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.jav"
+            },
+            {
+                "cacheItemId": "18976835",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.73",
+                "time": "12 Feb 2018 13:58:59",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Please enter your Card information to retrieve your User ID and reset your Password\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.jav"
+            },
+            {
+                "cacheItemId": "12477097",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.20",
+                "time": "12 Feb 2018 11:28:57",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Please enter your Card information to retrieve your User ID and reset your Password\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.jav"
+            },
+            {
+                "cacheItemId": "17314533",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.30.2.36",
+                "time": "12 Feb 2018 10:13:28",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Please enter your Card information to retrieve your User ID and reset your Password\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.jav"
+            },
+            {
+                "cacheItemId": "18276213",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.30.2.41",
+                "time": "12 Feb 2018 08:18:15",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Please enter your Card information to retrieve your User ID and reset your Password\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.jav"
+            },
+            {
+                "cacheItemId": "18714672",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.28",
+                "time": "12 Feb 2018 07:45:31",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Please enter your Card information to retrieve your User ID and reset your Password\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.jav"
+            },
+            {
+                "cacheItemId": "12759657",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.41",
+                "time": "12 Feb 2018 06:57:58",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Please enter your Card information to retrieve your User ID and reset your Password\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.jav"
+            },
+            {
+                "cacheItemId": "19085218",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.130",
+                "time": "12 Feb 2018 04:06:09",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Please enter your Card information to retrieve your User ID and reset your Password\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.jav"
+            },
+            {
+                "cacheItemId": "24565384",
+                "dbId": "sdbitc03",
+                "cobrandId": "17110005960",
+                "gathererIp": "10.22.25.35",
+                "time": "12 Feb 2018 04:01:48",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Please enter your Card information to retrieve your User ID and reset your Password\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.jav"
+            },
+            {
+                "cacheItemId": "18811063",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.30.2.38",
+                "time": "12 Feb 2018 04:01:17",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Please enter your Card information to retrieve your User ID and reset your Password\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.jav"
+            },
+            {
+                "cacheItemId": "10187305",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.119",
+                "time": "12 Feb 2018 03:44:04",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Please enter your Card information to retrieve your User ID and reset your Password\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.jav"
+            }
+        ]
+    },
+    {
+        "bucketId": 5,
+        "errorCode": "402",
+        "itemList": [
+            {
+                "cacheItemId": "",
+                "dbId": "ukprod031",
+                "cobrandId": "6010018912",
+                "gathererIp": "10.22.25.8",
+                "time": "12 Feb 2018 17:11:12",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Your American Express Online Services User ID or Password is incorrect\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.java:304)\n\tat UK"
+            },
+            {
+                "cacheItemId": "",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.40",
+                "time": "12 Feb 2018 16:03:42",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Your American Express Online Services User ID or Password is incorrect\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.java:304)\n\tat UK"
+            },
+            {
+                "cacheItemId": "",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.134",
+                "time": "12 Feb 2018 13:52:27",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Your American Express Online Services User ID or Password is incorrect\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.java:304)\n\tat UK"
+            },
+            {
+                "cacheItemId": "",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.93",
+                "time": "12 Feb 2018 09:41:01",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Your American Express Online Services User ID or Password is incorrect\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.java:304)\n\tat UK"
+            },
+            {
+                "cacheItemId": "19086412",
+                "dbId": "sdbita01",
+                "cobrandId": "10008356",
+                "gathererIp": "10.22.25.69",
+                "time": "12 Feb 2018 09:40:01",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Your American Express Online Services User ID or Password is incorrect\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.java:304)\n\tat UK"
+            },
+            {
+                "cacheItemId": "",
+                "dbId": "devprod",
+                "cobrandId": "10010352",
+                "gathererIp": "10.30.2.48",
+                "time": "12 Feb 2018 08:48:38",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Your American Express Online Services User ID or Password is incorrect\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.java:304)\n\tat UK"
+            },
+            {
+                "cacheItemId": "19084784",
+                "dbId": "sdbita01",
+                "cobrandId": "10008356",
+                "gathererIp": "10.22.25.107",
+                "time": "12 Feb 2018 06:39:10",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Your American Express Online Services User ID or Password is incorrect\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.java:304)\n\tat UK"
+            },
+            {
+                "cacheItemId": "19085231",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.61",
+                "time": "12 Feb 2018 04:15:17",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Your American Express Online Services User ID or Password is incorrect\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.java:304)\n\tat UK"
+            },
+            {
+                "cacheItemId": "19085191",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.158",
+                "time": "12 Feb 2018 03:45:17",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.LoginException: Your American Express Online Services User ID or Password is incorrect\n\tat UKAmexCreditCard.checkForUARError(UKAmexCreditCard.java:304)\n\tat UK"
+            }
+        ]
+    },
+    {
+        "bucketId": 6,
+        "errorCode": "403",
+        "itemList": [
+            {
+                "cacheItemId": "24284497",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.31",
+                "time": "12 Feb 2018 15:28:49",
+                "stacktrace": "org.openqa.selenium.WebDriverException: unknown error: Cannot read property 'click' of null\n  (Session info: chrome=43.0.2357.125)\n  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82"
+            },
+            {
+                "cacheItemId": "10036111",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.93",
+                "time": "12 Feb 2018 09:31:44",
+                "stacktrace": "org.openqa.selenium.WebDriverException: unknown error: Cannot read property 'click' of null\n  (Session info: chrome=43.0.2357.125)\n  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82"
+            },
+            {
+                "cacheItemId": "18988062",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.27",
+                "time": "12 Feb 2018 03:53:33",
+                "stacktrace": "org.openqa.selenium.WebDriverException: unknown error: Cannot read property 'click' of null\n  (Session info: chrome=43.0.2357.125)\n  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82"
+            }
+        ]
+    },
+    {
+        "bucketId": 7,
+        "errorCode": "403",
+        "itemList": [
+            {
+                "cacheItemId": "17393860",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.108",
+                "time": "12 Feb 2018 09:44:25",
+                "stacktrace": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 6.121\n  (Session info: chrome=43.0.2357.125)\n  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21d"
+            }
+        ]
+    },
+    {
+        "bucketId": 8,
+        "errorCode": "403",
+        "itemList": [
+            {
+                "cacheItemId": "56183093",
+                "dbId": "sdbcab02",
+                "cobrandId": "10005776",
+                "gathererIp": "10.22.25.45",
+                "time": "12 Feb 2018 07:25:46",
+                "stacktrace": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 1.229\n  (Session info: chrome=43.0.2357.125)\n  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21d"
+            }
+        ]
+    },
+    {
+        "bucketId": 9,
+        "errorCode": "403",
+        "itemList": [
+            {
+                "cacheItemId": "10041444",
+                "dbId": "ukprod041",
+                "cobrandId": "10019760",
+                "gathererIp": "10.22.25.81",
+                "time": "12 Feb 2018 05:00:40",
+                "stacktrace": "java.util.NoSuchElementException: Vector Enumeration\n\tat java.util.Vector$_X.nextElement(Vector.java:352)\n\tat UKAmexCreditCard.getAccountDetails(UKAmexCreditCard.java:1220)\n\tat UKAmexCreditCard.execut"
+            }
+        ]
+    },
+    {
+        "bucketId": 10,
+        "errorCode": "403",
+        "itemList": [
+            {
+                "cacheItemId": "26395264",
+                "dbId": "sdbitc03",
+                "cobrandId": "8410005960",
+                "gathererIp": "10.22.25.126",
+                "time": "12 Feb 2018 04:53:00",
+                "stacktrace": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 1.865\n  (Session info: chrome=43.0.2357.125)\n  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21d"
+            }
+        ]
+    },
+    {
+        "bucketId": 11,
+        "errorCode": "409",
+        "itemList": [
+            {
+                "cacheItemId": "10103435",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.93",
+                "time": "12 Feb 2018 15:11:48",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteUnavailableException: Internal Server Error\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCreditCard.java:281)\n\tat UKAmexCreditCard.login(UKAmexCreditCard."
+            }
+        ]
+    },
+    {
+        "bucketId": 12,
+        "errorCode": "412",
+        "itemList": [
+            {
+                "cacheItemId": "18800592",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.16",
+                "time": "12 Feb 2018 18:00:46",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: We are sorry. Credit Centre is currently unavailable.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCreditCard.java:293)\n\tat UKA"
+            },
+            {
+                "cacheItemId": "17742627",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.63",
+                "time": "12 Feb 2018 10:16:59",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: We are sorry. Credit Centre is currently unavailable.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCreditCard.java:293)\n\tat UKA"
+            },
+            {
+                "cacheItemId": "22212936",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.94",
+                "time": "12 Feb 2018 06:35:48",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: We are sorry. Credit Centre is currently unavailable.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCreditCard.java:293)\n\tat UKA"
+            },
+            {
+                "cacheItemId": "10176577",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.163",
+                "time": "12 Feb 2018 04:33:16",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: We are sorry. Credit Centre is currently unavailable.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCreditCard.java:293)\n\tat UKA"
+            }
+        ]
+    },
+    {
+        "bucketId": 13,
+        "errorCode": "412",
+        "itemList": [
+            {
+                "cacheItemId": "17619775",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.136",
+                "time": "12 Feb 2018 17:04:00",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18433392",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.67",
+                "time": "12 Feb 2018 17:03:59",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "13007354",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.74",
+                "time": "12 Feb 2018 17:03:59",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10135310",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.163",
+                "time": "12 Feb 2018 17:03:52",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10134704",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.119",
+                "time": "12 Feb 2018 17:03:50",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18303689",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.22",
+                "time": "12 Feb 2018 17:03:45",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17191795",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.110",
+                "time": "12 Feb 2018 17:03:45",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10179952",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.84",
+                "time": "12 Feb 2018 17:03:45",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18542684",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.29",
+                "time": "12 Feb 2018 17:03:44",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "22659452",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.63",
+                "time": "12 Feb 2018 17:03:39",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "25304183",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.90",
+                "time": "12 Feb 2018 17:03:38",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18616062",
+                "dbId": "sdbitc03",
+                "cobrandId": "2010005960",
+                "gathererIp": "10.22.25.156",
+                "time": "12 Feb 2018 17:03:38",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "26465545",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.75",
+                "time": "12 Feb 2018 17:03:37",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10144986",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.79",
+                "time": "12 Feb 2018 17:03:28",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "14637914",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.112",
+                "time": "12 Feb 2018 17:03:28",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17051777",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.23",
+                "time": "12 Feb 2018 17:03:05",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "19078252",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.91",
+                "time": "12 Feb 2018 17:03:02",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "25118380",
+                "dbId": "sdbitc03",
+                "cobrandId": "9410005960",
+                "gathererIp": "10.22.25.128",
+                "time": "12 Feb 2018 17:02:59",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "24497786",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.20",
+                "time": "12 Feb 2018 17:02:58",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10158264",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.84",
+                "time": "12 Feb 2018 17:02:57",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10124279",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.145",
+                "time": "12 Feb 2018 17:02:54",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10209862",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.13",
+                "time": "12 Feb 2018 17:02:52",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "13806049",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.125",
+                "time": "12 Feb 2018 17:02:43",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "24512762",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.94",
+                "time": "12 Feb 2018 17:02:41",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "16820852",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.121",
+                "time": "12 Feb 2018 17:02:35",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "34379292",
+                "dbId": "sdbcab02",
+                "cobrandId": "16110005220",
+                "gathererIp": "10.22.25.52",
+                "time": "12 Feb 2018 17:02:34",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "22526835",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.30.2.45",
+                "time": "12 Feb 2018 17:02:29",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18839029",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.72",
+                "time": "12 Feb 2018 17:02:06",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "16740681",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.37",
+                "time": "12 Feb 2018 17:02:04",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10029288",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.89",
+                "time": "12 Feb 2018 17:02:00",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10144066",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.84",
+                "time": "12 Feb 2018 17:01:57",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "47400277",
+                "dbId": "sdbcab02",
+                "cobrandId": "22210005220",
+                "gathererIp": "10.22.25.53",
+                "time": "12 Feb 2018 17:01:49",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "44359557",
+                "dbId": "sdbcab02",
+                "cobrandId": "16110005220",
+                "gathererIp": "10.22.25.52",
+                "time": "12 Feb 2018 17:01:48",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "16851962",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.128",
+                "time": "12 Feb 2018 17:01:45",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10157323",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.77",
+                "time": "12 Feb 2018 17:01:41",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "26582730",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.94",
+                "time": "12 Feb 2018 17:01:39",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18343969",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.74",
+                "time": "12 Feb 2018 17:01:33",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "19081312",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.47",
+                "time": "12 Feb 2018 17:01:31",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "14660183",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.21",
+                "time": "12 Feb 2018 17:01:02",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "12590342",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.160",
+                "time": "12 Feb 2018 17:01:02",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "23070297",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.30.2.44",
+                "time": "12 Feb 2018 17:00:50",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10107550",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.79",
+                "time": "12 Feb 2018 17:00:50",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17908511",
+                "dbId": "sdbita01",
+                "cobrandId": "10008356",
+                "gathererIp": "10.22.25.113",
+                "time": "12 Feb 2018 17:00:46",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10192031",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.79",
+                "time": "12 Feb 2018 17:00:45",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10199336",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.15",
+                "time": "12 Feb 2018 17:00:43",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18853466",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.72",
+                "time": "12 Feb 2018 17:00:42",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18369888",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.108",
+                "time": "12 Feb 2018 17:00:34",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17276206",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.27",
+                "time": "12 Feb 2018 17:00:33",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18879500",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.23",
+                "time": "12 Feb 2018 17:00:25",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "19891822",
+                "dbId": "sdbitc03",
+                "cobrandId": "23510005960",
+                "gathererIp": "10.22.25.20",
+                "time": "12 Feb 2018 17:00:22",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "21991560",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.30.2.38",
+                "time": "12 Feb 2018 17:00:22",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10053675",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.84",
+                "time": "12 Feb 2018 17:00:03",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10094172",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.89",
+                "time": "12 Feb 2018 17:00:00",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10180299",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.145",
+                "time": "12 Feb 2018 16:59:49",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "23107284",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.69",
+                "time": "12 Feb 2018 16:59:36",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18046638",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.105",
+                "time": "12 Feb 2018 16:59:30",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "25518520",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.71",
+                "time": "12 Feb 2018 16:59:26",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "19033698",
+                "dbId": "sdbita01",
+                "cobrandId": "10008356",
+                "gathererIp": "10.22.25.63",
+                "time": "12 Feb 2018 16:59:25",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "26756355",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.130",
+                "time": "12 Feb 2018 16:59:23",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10192333",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.109",
+                "time": "12 Feb 2018 16:58:51",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "20407598",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.91",
+                "time": "12 Feb 2018 16:58:31",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18430531",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.112",
+                "time": "12 Feb 2018 16:58:29",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17081296",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.30.2.45",
+                "time": "12 Feb 2018 16:57:57",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10174360",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.89",
+                "time": "12 Feb 2018 16:57:54",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17462565",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.23",
+                "time": "12 Feb 2018 16:57:50",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10071936",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.109",
+                "time": "12 Feb 2018 16:57:50",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "24390747",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.90",
+                "time": "12 Feb 2018 16:57:48",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10175878",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.13",
+                "time": "12 Feb 2018 16:57:47",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "56493624",
+                "dbId": "sdbcab02",
+                "cobrandId": "16110005220",
+                "gathererIp": "10.22.25.52",
+                "time": "12 Feb 2018 16:57:35",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18981502",
+                "dbId": "sdbita01",
+                "cobrandId": "10008356",
+                "gathererIp": "10.30.2.36",
+                "time": "12 Feb 2018 16:57:34",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18544863",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.110",
+                "time": "12 Feb 2018 16:57:30",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "16930480",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.20",
+                "time": "12 Feb 2018 16:57:30",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "25864704",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.26",
+                "time": "12 Feb 2018 16:57:28",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10188299",
+                "dbId": "ukprod021",
+                "cobrandId": "10019108",
+                "gathererIp": "10.22.25.10",
+                "time": "12 Feb 2018 16:57:05",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17956417",
+                "dbId": "sdbita01",
+                "cobrandId": "10008356",
+                "gathererIp": "10.22.25.35",
+                "time": "12 Feb 2018 16:57:04",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10045329",
+                "dbId": "ukprod041",
+                "cobrandId": "10019760",
+                "gathererIp": "10.22.25.123",
+                "time": "12 Feb 2018 16:57:00",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "11897893",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.28",
+                "time": "12 Feb 2018 16:56:59",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18935716",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.131",
+                "time": "12 Feb 2018 16:56:55",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "24418370",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.67",
+                "time": "12 Feb 2018 16:56:52",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "14475639",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.131",
+                "time": "12 Feb 2018 16:56:50",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18677439",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.26",
+                "time": "12 Feb 2018 16:56:48",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17790867",
+                "dbId": "sdbita01",
+                "cobrandId": "10008356",
+                "gathererIp": "10.22.25.14",
+                "time": "12 Feb 2018 15:27:37",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17537498",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.31",
+                "time": "12 Feb 2018 15:26:37",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10205411",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.163",
+                "time": "12 Feb 2018 15:25:54",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17965156",
+                "dbId": "sdbita01",
+                "cobrandId": "10005620",
+                "gathererIp": "10.30.2.37",
+                "time": "12 Feb 2018 15:22:55",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "14728140",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.127",
+                "time": "12 Feb 2018 15:11:42",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "25831313",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.94",
+                "time": "12 Feb 2018 14:40:46",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10052098",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.4",
+                "time": "12 Feb 2018 14:39:57",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18024205",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.150",
+                "time": "12 Feb 2018 14:09:02",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "24176957",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.143",
+                "time": "12 Feb 2018 14:08:57",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "16998099",
+                "dbId": "sdbita01",
+                "cobrandId": "10008356",
+                "gathererIp": "10.22.25.39",
+                "time": "12 Feb 2018 14:08:48",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "19033268",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.104",
+                "time": "12 Feb 2018 14:08:45",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10125601",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.93",
+                "time": "12 Feb 2018 14:08:44",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10186148",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.79",
+                "time": "12 Feb 2018 14:08:40",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "13761976",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.30.2.45",
+                "time": "12 Feb 2018 14:08:40",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10177754",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.89",
+                "time": "12 Feb 2018 14:08:38",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "26388049",
+                "dbId": "sdbitc03",
+                "cobrandId": "23510005960",
+                "gathererIp": "10.30.2.37",
+                "time": "12 Feb 2018 14:08:28",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "16768151",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.73",
+                "time": "12 Feb 2018 14:08:06",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10166194",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.119",
+                "time": "12 Feb 2018 14:07:51",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18786784",
+                "dbId": "sdbita01",
+                "cobrandId": "10005620",
+                "gathererIp": "10.22.25.28",
+                "time": "12 Feb 2018 14:07:49",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10125153",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.79",
+                "time": "12 Feb 2018 14:07:48",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17876037",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.149",
+                "time": "12 Feb 2018 14:07:45",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18911158",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.67",
+                "time": "12 Feb 2018 14:07:45",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17538068",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.94",
+                "time": "12 Feb 2018 14:07:44",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18655956",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.130",
+                "time": "12 Feb 2018 14:07:39",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17806073",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.48",
+                "time": "12 Feb 2018 14:07:37",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10080316",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.103",
+                "time": "12 Feb 2018 14:07:36",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "14033365",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.141",
+                "time": "12 Feb 2018 14:07:34",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17182892",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.20",
+                "time": "12 Feb 2018 14:07:34",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18077026",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.26",
+                "time": "12 Feb 2018 14:07:33",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "22280585",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.16",
+                "time": "12 Feb 2018 14:07:27",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17771059",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.133",
+                "time": "12 Feb 2018 14:07:17",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "22116568",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.41",
+                "time": "12 Feb 2018 14:07:15",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10163914",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.103",
+                "time": "12 Feb 2018 14:07:06",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10038062",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.77",
+                "time": "12 Feb 2018 14:06:57",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10058193",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.84",
+                "time": "12 Feb 2018 14:06:55",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10030986",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.15",
+                "time": "12 Feb 2018 14:06:51",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "26553328",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.92",
+                "time": "12 Feb 2018 14:06:51",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "16756537",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.30",
+                "time": "12 Feb 2018 14:06:51",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10065451",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.79",
+                "time": "12 Feb 2018 14:06:49",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18728520",
+                "dbId": "sdbita01",
+                "cobrandId": "10008356",
+                "gathererIp": "10.30.2.45",
+                "time": "12 Feb 2018 14:06:43",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "19077399",
+                "dbId": "sdbita01",
+                "cobrandId": "10008356",
+                "gathererIp": "10.22.25.22",
+                "time": "12 Feb 2018 14:06:43",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17139526",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.30.2.40",
+                "time": "12 Feb 2018 14:06:43",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18093602",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.160",
+                "time": "12 Feb 2018 14:06:40",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "16604731",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.108",
+                "time": "12 Feb 2018 14:06:39",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18637839",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.107",
+                "time": "12 Feb 2018 14:06:36",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "20591692",
+                "dbId": "sdbitc03",
+                "cobrandId": "8410005960",
+                "gathererIp": "10.22.25.48",
+                "time": "12 Feb 2018 14:06:36",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "21449592",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.73",
+                "time": "12 Feb 2018 14:06:36",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18940604",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.148",
+                "time": "12 Feb 2018 14:06:34",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17130736",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.31",
+                "time": "12 Feb 2018 14:06:05",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10194306",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.114",
+                "time": "12 Feb 2018 14:05:56",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17887580",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.126",
+                "time": "12 Feb 2018 14:05:56",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "19055314",
+                "dbId": "sdbita01",
+                "cobrandId": "10008356",
+                "gathererIp": "10.22.25.20",
+                "time": "12 Feb 2018 14:05:53",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17423152",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.113",
+                "time": "12 Feb 2018 14:05:52",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10114194",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.77",
+                "time": "12 Feb 2018 14:05:52",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18299650",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.39",
+                "time": "12 Feb 2018 14:05:49",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10031867",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.15",
+                "time": "12 Feb 2018 14:05:48",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10027127",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.145",
+                "time": "12 Feb 2018 14:05:43",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "18401594",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.24",
+                "time": "12 Feb 2018 14:05:36",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "25162077",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.160",
+                "time": "12 Feb 2018 14:05:33",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "12646070",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.118",
+                "time": "12 Feb 2018 14:05:33",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "17374096",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.70",
+                "time": "12 Feb 2018 14:05:32",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "22890660",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.30.2.40",
+                "time": "12 Feb 2018 14:05:28",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "16851329",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.31",
+                "time": "12 Feb 2018 14:05:11",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "25709622",
+                "dbId": "sdbitc03",
+                "cobrandId": "8410005960",
+                "gathererIp": "10.22.25.159",
+                "time": "12 Feb 2018 14:03:59",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "19114013",
+                "dbId": "sdbitc03",
+                "cobrandId": "9410005960",
+                "gathererIp": "10.22.25.135",
+                "time": "12 Feb 2018 12:00:42",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10149562",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.93",
+                "time": "12 Feb 2018 09:08:48",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            },
+            {
+                "cacheItemId": "10219616",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.114",
+                "time": "12 Feb 2018 04:14:09",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Sorry, we are unable to load this page at this time. Please try again later.\n\tat UKAmexCreditCard.checkForSiteError(UKAmexCredi"
+            }
+        ]
+    },
+    {
+        "bucketId": 14,
+        "errorCode": "412",
+        "itemList": [
+            {
+                "cacheItemId": "12834353",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.30.2.21",
+                "time": "12 Feb 2018 17:02:33",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: statement was not downloaded\n\tat UKAmexCreditCard.multipleAccountTrasForEnglishUsers(UKAmexCreditCard.java:1006)\n\tat UKAmexCred"
+            },
+            {
+                "cacheItemId": "10149605",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.79",
+                "time": "12 Feb 2018 15:29:05",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: statement was not downloaded\n\tat UKAmexCreditCard.multipleAccountTrasForEnglishUsers(UKAmexCreditCard.java:1006)\n\tat UKAmexCred"
+            },
+            {
+                "cacheItemId": "24513018",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.30.2.38",
+                "time": "12 Feb 2018 15:28:18",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: statement was not downloaded\n\tat UKAmexCreditCard.multipleAccountTrasForEnglishUsers(UKAmexCreditCard.java:1006)\n\tat UKAmexCred"
+            },
+            {
+                "cacheItemId": "18741140",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.42",
+                "time": "12 Feb 2018 15:27:26",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: statement was not downloaded\n\tat UKAmexCreditCard.multipleAccountTrasForEnglishUsers(UKAmexCreditCard.java:1006)\n\tat UKAmexCred"
+            }
+        ]
+    },
+    {
+        "bucketId": 15,
+        "errorCode": "412",
+        "itemList": [
+            {
+                "cacheItemId": "25551570",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.68",
+                "time": "12 Feb 2018 15:22:41",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: We're sorry, Online Services have been unable to complete your request\n\tat UKAmexCreditCard.multipleAccountTrasForEnglishUsers("
+            },
+            {
+                "cacheItemId": "20769190",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.116",
+                "time": "12 Feb 2018 14:38:18",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: We're sorry, Online Services have been unable to complete your request\n\tat UKAmexCreditCard.multipleAccountTrasForEnglishUsers("
+            },
+            {
+                "cacheItemId": "17793412",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.30.2.37",
+                "time": "12 Feb 2018 14:22:28",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: We're sorry, Online Services have been unable to complete your request\n\tat UKAmexCreditCard.multipleAccountTrasForEnglishUsers("
+            },
+            {
+                "cacheItemId": "18657804",
+                "dbId": "sdbita01",
+                "cobrandId": "10005780",
+                "gathererIp": "10.22.25.105",
+                "time": "12 Feb 2018 14:04:41",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: We're sorry, Online Services have been unable to complete your request\n\tat UKAmexCreditCard.multipleAccountTrasForEnglishUsers("
+            }
+        ]
+    },
+    {
+        "bucketId": 16,
+        "errorCode": "412",
+        "itemList": [
+            {
+                "cacheItemId": "22539911",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.144",
+                "time": "12 Feb 2018 15:01:03",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Account Summary Page not loaded after wait\n\tat UKAmexCreditCard.getCardAccountNewFlow(UKAmexCreditCard.java:1071)\n\tat UKAmexCre"
+            },
+            {
+                "cacheItemId": "10054937",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.109",
+                "time": "12 Feb 2018 08:58:52",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Account Summary Page not loaded after wait\n\tat UKAmexCreditCard.getCardAccountNewFlow(UKAmexCreditCard.java:1071)\n\tat UKAmexCre"
+            }
+        ]
+    },
+    {
+        "bucketId": 17,
+        "errorCode": "412",
+        "itemList": [
+            {
+                "cacheItemId": "56398168",
+                "dbId": "sdbcab02",
+                "cobrandId": "16110005220",
+                "gathererIp": "10.22.25.53",
+                "time": "12 Feb 2018 14:31:22",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Accounts was not loaded after waiting.\n\tat UKAmexCreditCard.navigateToAccountSummaryPage(UKAmexCreditCard.java:1280)\n\tat UKAmex"
+            },
+            {
+                "cacheItemId": "10151659",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.79",
+                "time": "12 Feb 2018 11:42:55",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Accounts was not loaded after waiting.\n\tat UKAmexCreditCard.navigateToAccountSummaryPage(UKAmexCreditCard.java:1280)\n\tat UKAmex"
+            },
+            {
+                "cacheItemId": "10195337",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.79",
+                "time": "12 Feb 2018 05:03:42",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SiteApplicationErrorException: Accounts was not loaded after waiting.\n\tat UKAmexCreditCard.navigateToAccountSummaryPage(UKAmexCreditCard.java:1280)\n\tat UKAmex"
+            }
+        ]
+    },
+    {
+        "bucketId": 18,
+        "errorCode": "413",
+        "itemList": [
+            {
+                "cacheItemId": "22209830",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.42",
+                "time": "12 Feb 2018 18:06:38",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> runningBalanceReconcillation : Account has positive running balance bu"
+            },
+            {
+                "cacheItemId": "18272108",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.41",
+                "time": "12 Feb 2018 18:01:30",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> runningBalanceReconcillation : Account has positive running balance bu"
+            },
+            {
+                "cacheItemId": "19060608",
+                "dbId": "sdbita01",
+                "cobrandId": "10008356",
+                "gathererIp": "10.30.2.44",
+                "time": "12 Feb 2018 17:51:21",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> runningBalanceReconcillation : Account has positive running balance bu"
+            },
+            {
+                "cacheItemId": "17698455",
+                "dbId": "sdbita01",
+                "cobrandId": "10005628",
+                "gathererIp": "10.22.25.111",
+                "time": "12 Feb 2018 17:23:39",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> runningBalanceReconcillation : Account has positive running balance bu"
+            },
+            {
+                "cacheItemId": "10059035",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.4",
+                "time": "12 Feb 2018 15:43:49",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> runningBalanceReconcillation : Account has positive running balance bu"
+            },
+            {
+                "cacheItemId": "10197860",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.163",
+                "time": "12 Feb 2018 14:28:01",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> runningBalanceReconcillation : Account has positive running balance bu"
+            },
+            {
+                "cacheItemId": "10198854",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.84",
+                "time": "12 Feb 2018 06:50:26",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> runningBalanceReconcillation : Account has positive running balance bu"
+            },
+            {
+                "cacheItemId": "20400976",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.160",
+                "time": "12 Feb 2018 05:08:41",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> runningBalanceReconcillation : Account has positive running balance bu"
+            },
+            {
+                "cacheItemId": "25884999",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.63",
+                "time": "12 Feb 2018 04:41:36",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> runningBalanceReconcillation : Account has positive running balance bu"
+            }
+        ]
+    },
+    {
+        "bucketId": 19,
+        "errorCode": "413",
+        "itemList": [
+            {
+                "cacheItemId": "10092483",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.114",
+                "time": "12 Feb 2018 16:45:46",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> transactionDuplicationValidation : Use Case2 Cross Account duplication"
+            },
+            {
+                "cacheItemId": "10164354",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.114",
+                "time": "12 Feb 2018 15:49:51",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> transactionDuplicationValidation : Use Case2 Cross Account duplication"
+            },
+            {
+                "cacheItemId": "25094551",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.30",
+                "time": "12 Feb 2018 08:58:22",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> transactionDuplicationValidation : Use Case2 Cross Account duplication"
+            },
+            {
+                "cacheItemId": "20546812",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.49",
+                "time": "12 Feb 2018 07:49:40",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> transactionDuplicationValidation : Use Case2 Cross Account duplication"
+            },
+            {
+                "cacheItemId": "10153759",
+                "dbId": "ukprod021",
+                "cobrandId": "10018988",
+                "gathererIp": "10.22.25.89",
+                "time": "12 Feb 2018 06:27:05",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.RequiredFieldUnavailableException: Errors encountered during validation, errors are --> transactionDuplicationValidation : Use Case2 Cross Account duplication"
+            }
+        ]
+    },
+    {
+        "bucketId": 20,
+        "errorCode": "427",
+        "itemList": [
+            {
+                "cacheItemId": "26785794",
+                "dbId": "sdbitc03",
+                "cobrandId": "34210005960",
+                "gathererIp": "10.22.25.115",
+                "time": "12 Feb 2018 04:27:54",
+                "stacktrace": "com.yodlee.dap.gatherer.gather.exceptions.SplashPageException: Incorrect Country AggragrationUnited States\n\tat UKAmexCreditCard.checkcurrencySupported(UKAmexCreditCard.java:407)\n\tat UKAmexCreditCard.p"
+            }
+        ]
+    }
+]

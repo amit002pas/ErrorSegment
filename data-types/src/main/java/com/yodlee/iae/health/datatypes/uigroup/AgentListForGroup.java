@@ -1,0 +1,15 @@
+package com.yodlee.iae.health.datatypes.uigroup;
+
+import java.util.List;
+
+import com.yodlee.iae.health.datatypes.kafkagroup.GroupCategory;
+
+import lombok.Data;
+
+public @Data class AgentListForGroup {
+
+	GroupCategory category;
+	String groupName;
+	List<String> agentList;
+
+}

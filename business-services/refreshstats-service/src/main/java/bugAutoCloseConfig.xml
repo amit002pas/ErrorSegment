@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<error-codes>
+	<error-code id="409">
+		<retry-count>3</retry-count>
+		<retry-interval>180</retry-interval>
+	</error-code>
+	<error-code id="412">
+		<retry-count>3</retry-count>
+		<retry-interval>180</retry-interval>
+	</error-code>
+	<error-code id="424">
+		<retry-count>3</retry-count>
+		<retry-interval>180</retry-interval>
+	</error-code>
+</error-codes>

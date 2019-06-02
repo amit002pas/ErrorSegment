@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.yodlee.health.errorsegment</groupId>
+		<artifactId>ERROR-SEGMENT</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>schedular</artifactId>
+	<name>schedular</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.yodlee.health.errorsegment</groupId>
+			<artifactId>refreshstats-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.yodlee.health.errorsegment</groupId>
+			<artifactId>gateway</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- <dependency>
+			<groupId>com.yodlee.health.errorsegment</groupId>
+			<artifactId>forecast-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>com.yodlee.health.errorsegment</groupId>
+			<artifactId>data-types</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.yodlee.health.errorsegment</groupId>
+			<artifactId>jnanalysis-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.yodlee.health.errorsegment</groupId>
+			<artifactId>repository</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+
+		<dependency>
+			<groupId>com.yodlee.mel</groupId>
+			<artifactId>mel-core</artifactId>
+			<version>0.0.1.8</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-log4j12</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>log4j</groupId>
+					<artifactId>log4j</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>com.yodlee.iae.vitarana</groupId>
+			<artifactId>vitarana-core</artifactId>
+			<version>0.0.1.47</version>
+		</dependency>
+
+	</dependencies>
+</project>

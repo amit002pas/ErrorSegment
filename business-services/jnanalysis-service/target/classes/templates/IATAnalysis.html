@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>PreSR Analysis</title>
+<style>
+#tablestyle table {
+	width: 100%;
+}
+
+#tablestyle {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 90%;
+}
+
+#tablestyle td, #tablestyle th {
+	border: 1px solid #ddd;
+	padding: 6px;
+}
+
+#tablestyle tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#tablestyle th {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	background-color: #4c57af;
+	color: white;
+}
+
+body {
+	width: 80%;
+	height: 100%;
+	margin: 10; /* Space from this element (entire page) and others*/
+	padding: 10; /*space from content and border*/
+	border: solid black;
+	border-width: thin;
+	align: center;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+pre {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+</style>
+
+</head>
+<body>
+	<!-- 
+	<div>
+		<img src="Capture.png" alt="Envestnet Yodlee" />
+	</div> -->
+
+	<br />
+
+	<div align="center">
+		<h1>JUGGERNAUT ANALYSIS REPORT</h1>
+		<br /> <b>BUG ID: <span th:text="${BugId}"></span>
+		</b>
+	</div>
+	<br />
+	<br />
+	<table id='tablestyle' align="center">
+
+		<tr>
+			<th>Item type</th>
+			<th>Item ID</th>
+			<th>Cobrand ID</th>
+			<th>Agent Name</th>
+			<th>Site ID</th>
+			<th>Production Status</th>
+		</tr>
+		<tr>
+			<td th:if="${IatResponse.itemType}!=null" th:text="${IatResponse.itemType}"></td>
+			<td th:if="${IatResponse.itemId}!=null" th:text="${IatResponse.itemId}"></td>
+			<td th:if="${IatResponse.cobrandId}!=null" th:text="${IatResponse.cobrandId}"></td>
+			<td th:if="${AdditionalDetail.agentName}!=null" th:text="${AdditionalDetail.agentName}"></td>
+			<td th:if="${AdditionalDetail.siteId}!=null" th:text="${AdditionalDetail.siteId}"></td>
+			<td th:if="${IatResponse.productionStatus}!=null" th:text="${IatResponse.productionStatus}"></td>
+		</tr>
+	</table>
+	<br />
+	<br />
+	<table id='tablestyle' align="center">
+		<tr>
+			<td>Issue Observed :</td>
+			<td th:text="${outcome.output}"></td>
+		</tr>
+	</table>
+	<br />
+	<br />
+
+	<table id='tablestyle' align="center" width="100%">
+		<caption style="text-align: left">
+			<b>Consolidated Analysis :</b>
+		</caption>
+		<tr>
+
+			<td><pre th:text="${AdditionalDetail.comment}"></pre></td>
+
+		</tr>
+	</table>
+
+	<br />
+	<br />
+
+	<table id='tablestyle' align="center">
+		<caption style="text-align: left">
+			<b>Production Firemem :</b>
+		</caption>
+		<tr>
+
+			<td>
+				<table>
+					<tr>
+						<td>Production Firemem Link :</td>
+						<td th:if="${FirememUrl}!=null" th:text="${FirememUrl}"></td>
+					</tr>
+					<tr>
+						<td>Production Firemem Error code :</td>
+						<td th:if="${FirememErrorCode}!=null" th:text="${FirememErrorCode}"></td>
+					</tr>
+					<tr>
+						<td>Production Firemem Status :</td>
+						<td th:if="${FirememStatus}!=null" th:text="${FirememStatus}"></td>
+					</tr>
+				</table>
+			</td>
+
+		</tr>
+
+	</table>
+	<br />
+	<br />
+	<table id='tablestyle' align="center">
+		<caption style="text-align: left">
+			<b>Log Analysis :</b>
+		</caption>
+		<tr>
+
+			<td>
+				<table>
+					<div th:each="item : ${LogAnalysisList}">
+						<div th:text="${item.className}"
+							style="font-weight: bold; text-decoration: underline"></div>
+						<br />
+						<div th:text="${item.status}"></div>
+						<br />
+					</div>
+				</table>
+			</td>
+
+		</tr>
+
+	</table>
+
+	<br />
+	<br />
+
+	<table id='tablestyle' align="center">
+		<caption style="text-align: left">
+			<b>Stats Analysis :</b>
+		</caption>
+	</table>
+	<table id='tablestyle' align="center">
+		<caption style="text-align: left">Server stats</caption>
+		<tr>
+			<th>MEM SITE ACC ID</th>
+			<th>CACHE ITEM ID</th>
+			<th>COBRAND ID</th>
+			<th>SUM INFO ID</th>
+			<th>ERROR CODE</th>
+			<th>DUMP CREATED (PST)</th>
+			<th>SCRIPT VERSION</th>
+			<th>SERVER TYPE</th>
+		</tr>
+		<tr th:if="${StatsAnalysisList}!=null" th:each="item : ${StatsAnalysisList}">
+			<td th:text="${item.memSiteAccId}"></td>
+			<td th:text="${item.cacheItemId}"></td>
+			<td th:text="${item.cobrandId}"></td>
+			<td th:text="${item.sumInfoId}"></td>
+			<td th:text="${item.errorCode}"></td>
+			<td th:text="${item.dumpCreated}"></td>
+			<td th:text="${item.scriptVersion}"></td>
+			<td th:text="${item.serverType}"></td>
+		</tr>
+	</table>
+
+	<table id='tablestyle' align="center" th:if="${SiteStatsData}!=null" >
+		<caption style="text-align: left">Site stats</caption>
+		<tr>
+			<th>TYPE OF ERROR</th>
+			<th>ERROR COUNT</th>
+			<th>ERROR PERCENTAGE</th>
+		</tr>
+		<tr>
+			<td th:if="${SiteStatsData.error_code}!=null"  th:text="${SiteStatsData.error_code}"></td>
+			<td th:if="${SiteStatsData.error_count}!=null" th:text="${SiteStatsData.error_count}"></td>
+			<td th:if="${SiteStatsData.error_count_perc}!=null" th:text="${SiteStatsData.error_count_perc}"></td>
+		</tr>
+		<tr>
+			<td>AGENT ERROR</td>
+			<td th:if="${SiteStatsData.agent_errors}!=null" th:text="${SiteStatsData.agent_errors}"></td>
+			<td th:if="${SiteStatsData.agent_perc}!=null"  th:text="${SiteStatsData.agent_perc}"></td>
+		</tr>
+		<tr>
+			<td>SITE ERROR</td>
+			<td th:if="${SiteStatsData.site_errors}!=null" th:text="${SiteStatsData.site_errors}"></td>
+			<td th:if="${SiteStatsData.site_perc}!=null"   th:text="${SiteStatsData.site_perc}"></td>
+		</tr>
+		<tr>
+			<td>UAR ERROR</td>
+			<td th:if="${SiteStatsData.uar_errors}!=null"  th:text="${SiteStatsData.uar_errors}"></td>
+			<td th:if="${SiteStatsData.uar_perc}!=null"    th:text="${SiteStatsData.uar_perc}"></td>
+		</tr>
+		<tr>
+			<td>INFRA ERROR</td>
+			<td th:if="${SiteStatsData.infra_error}!=null" th:text="${SiteStatsData.infra_error}"></td>
+			<td th:if="${SiteStatsData.infra_perc}!=null" th:text="${SiteStatsData.infra_perc}"></td>
+		</tr>
+		<tr>
+			<td>SUCCESS</td>
+			<td th:if="${SiteStatsData.success}!=null" th:text="${SiteStatsData.success}"></td>
+			<td th:if="${SiteStatsData.succ_perc}!=null" th:text="${SiteStatsData.succ_perc}"></td>
+		</tr>
+		<tr>
+			<td>TOTAL REQUEST</td>
+			<td th:if="${SiteStatsData.total_request}!=null" th:text="${SiteStatsData.total_request}"></td>
+			<td></td>
+		</tr>
+	</table>
+
+	<table id='tablestyle' align="center" th:if="${CobrandStatsData}!=null" >
+		<caption style="text-align: left">Cobrand stats</caption>
+		<tr>
+			<th>TYPE OF ERROR</th>
+			<th>ERROR COUNT</th>
+			<th>ERROR PERCENTAGE</th>
+		</tr>
+		<tr>
+			<td th:if="${CobrandStatsData.error_code}!=null" th:text="${CobrandStatsData.error_code}"></td>
+			<td th:if="${CobrandStatsData.error_count}!=null" th:text="${CobrandStatsData.error_count}"></td>
+			<td th:if="${CobrandStatsData.error_count_perc}!=null" th:text="${CobrandStatsData.error_count_perc}"></td>
+		</tr>
+		<tr>
+			<td>AGENT ERROR</td>
+			<td th:if="${CobrandStatsData.agent_errors}!=null" th:text="${CobrandStatsData.agent_errors}"></td>
+			<td th:if="${CobrandStatsData.agent_perc}!=null" th:text="${CobrandStatsData.agent_perc}"></td>
+		</tr>
+		<tr>
+			<td>SITE ERROR</td>
+			<td th:if="${CobrandStatsData.site_errors}!=null" th:text="${CobrandStatsData.site_errors}"></td>
+			<td th:if="${CobrandStatsData.site_perc}!=null" th:text="${CobrandStatsData.site_perc}"></td>
+		</tr>
+		<tr>
+			<td>UAR ERROR</td>
+			<td th:if="${CobrandStatsData.uar_errors}!=null" th:text="${CobrandStatsData.uar_errors}"></td>
+			<td th:if="${CobrandStatsData.uar_perc}!=null" th:text="${CobrandStatsData.uar_perc}"></td>
+		</tr>
+		<tr>
+			<td>INFRA ERROR</td>
+			<td th:if="${CobrandStatsData.infra_error}!=null" th:text="${CobrandStatsData.infra_error}"></td>
+			<td th:if="${CobrandStatsData.infra_perc}!=null" th:text="${CobrandStatsData.infra_perc}"></td>
+		</tr>
+		<tr>
+			<td>SUCCESS</td>
+			<td th:if="${CobrandStatsData.success}!=null" th:text="${CobrandStatsData.success}"></td>
+			<td th:if="${CobrandStatsData.succ_perc}!=null" th:text="${CobrandStatsData.succ_perc}"></td>
+		</tr>
+		<tr>
+			<td>TOTAL REQUEST</td>
+			<td th:if="${CobrandStatsData.total_request}!=null" th:text="${CobrandStatsData.total_request}"></td>
+			<td></td>
+		</tr>
+	</table>
+
+	<br />
+	<br />
+	<br />
+	<br />
+
+</body>
+</html>
