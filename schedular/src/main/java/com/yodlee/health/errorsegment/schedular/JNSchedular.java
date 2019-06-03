@@ -62,7 +62,7 @@ public class JNSchedular {
 		target.request().headers(multivaluedMap).get();
 	}
 
-	//@Scheduled(fixedDelay = 2 * 60 * 1000)
+	@Scheduled(fixedDelay = 2 * 60 * 1000)
 	public void sendSimilarBugsToJN() {
 		Client client = ClientBuilder.newClient();
 		WebTarget target = client.target(JuggernautAnalysisConstants.CHIRON_SIMILAR_BUG_URL_PROD);

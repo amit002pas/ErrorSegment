@@ -49,7 +49,7 @@ public class BugAutoCloserSchedular {
 	/**
 	 * scheduler to analyze all ready status bug.
 	 */
-	//@Scheduled(fixedDelay = 30 * 60 * 1000)
+	@Scheduled(fixedDelay = 30 * 60 * 1000)
 	public void scheduleAutoCloserBugs() {
 		logger.info("^^^Inside scheduleAutoCloserBugs");
 		ExecutorService executor = Executors.newFixedThreadPool(4);
@@ -64,7 +64,7 @@ public class BugAutoCloserSchedular {
 	/**
 	 * Scheduler to audit and synch/tracking of synthetic bugs.
 	 */
-	//@Scheduled(fixedDelay = 30 * 60 * 1000)
+	@Scheduled(fixedDelay = 30 * 60 * 1000)
 	public void BugAutoCloserAudit() {
 		logger.info("^^^Inside BugAutoCloserAudit");
 		List<BugAutoCloserSchedularJob> mainBugList = autoCloseRepository.getJobsForAuditing();

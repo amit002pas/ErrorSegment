@@ -119,7 +119,7 @@ public class ApplicationStarter implements ITaskConsumer {
 	@Scheduled(initialDelay = 5000, fixedDelay = 900000)
 	public void startJuggernautAnalysis() {
 		if (masterElection.getMasterStatus()) {			
-			//jnAnalysisAttachmentService.process(new Object());
+			jnAnalysisAttachmentService.process(new Object());
 		}
 	}
 
@@ -160,7 +160,7 @@ public class ApplicationStarter implements ITaskConsumer {
 		try {
 			Executors.newSingleThreadExecutor().submit(() -> {
 				try {
-				//	doProcessing(listOfAgent, groupName);
+					doProcessing(listOfAgent, groupName);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

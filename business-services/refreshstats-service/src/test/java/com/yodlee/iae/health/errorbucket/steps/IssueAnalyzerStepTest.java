@@ -94,7 +94,7 @@ public class IssueAnalyzerStepTest {
 		bucket.setSumInfo("5");
 		bucket.setStacktrace("nullpointerexception");
 		bucket.setSiteId("12");
-		bucket.setRefreshTime(new Date());
+		bucket.setEndTime(new Date());
 
 		Bucket bucket1 = new Bucket();
 		List<CacheItem> cacheItemIds1 = new ArrayList<>();
@@ -115,7 +115,7 @@ public class IssueAnalyzerStepTest {
 		bucket1.setSumInfo("6");
 		bucket1.setStacktrace("Exceptionpointerexception");
 		bucket1.setSiteId("12");
-		bucket1.setRefreshTime(new Date());
+		bucket1.setEndTime(new Date());
 
 		Bucket bucket2 = new Bucket();
 		List<CacheItem> cacheItemIds22 = new ArrayList<>();
@@ -148,7 +148,7 @@ public class IssueAnalyzerStepTest {
 		bucket2.setSumInfo("7");
 		bucket2.setStacktrace("nullpointerexception");
 		bucket2.setSiteId("12");
-		bucket2.setRefreshTime(new Date());
+		bucket2.setEndTime(new Date());
 
 		obj.add(bucket);
 		obj.add(bucket1);
@@ -225,7 +225,7 @@ public class IssueAnalyzerStepTest {
 		bucket.setSumInfo("5");
 		bucket.setStacktrace("nullpointerexception");
 		bucket.setSiteId("12");
-		bucket.setRefreshTime(new Date());
+		bucket.setEndTime(new Date());
 
 
 		obj.add(bucket);
@@ -287,7 +287,7 @@ public class IssueAnalyzerStepTest {
 		bucket1.setSumInfo("6");
 		bucket1.setStacktrace("Exceptionpointerexception");
 		bucket1.setSiteId("12");
-		bucket1.setRefreshTime(new Date());
+		bucket1.setEndTime(new Date());
 
 		obj.add(bucket1);
 
@@ -346,7 +346,7 @@ public class IssueAnalyzerStepTest {
 		bucket1.setSumInfo("6");
 		bucket1.setStacktrace("Exceptionpointerexception");
 		bucket1.setSiteId("12");
-		bucket1.setRefreshTime(new Date());
+		bucket1.setEndTime(new Date());
 
 		obj.add(bucket1);
 
@@ -405,7 +405,7 @@ public class IssueAnalyzerStepTest {
 		bucket1.setSumInfo("6");
 		bucket1.setStacktrace("Exceptionpointerexception");
 		bucket1.setSiteId("12");
-		bucket1.setRefreshTime(new Date());
+		bucket1.setEndTime(new Date());
 
 		obj.add(bucket1);
 
@@ -463,7 +463,7 @@ public class IssueAnalyzerStepTest {
 		bucket1.setSumInfo("6");
 		bucket1.setStacktrace("Exceptionpointerexception");
 		bucket1.setSiteId("12");
-		bucket1.setRefreshTime(new Date());
+		bucket1.setEndTime(new Date());
 
 		obj.add(bucket1);
 
@@ -520,7 +520,7 @@ public class IssueAnalyzerStepTest {
 		bucket1.setSumInfo("6");
 		bucket1.setStacktrace("Exceptionpointerexception");
 		bucket1.setSiteId("12");
-		bucket1.setRefreshTime(new Date());
+		bucket1.setEndTime(new Date());
 
 		obj.add(bucket1);
 
@@ -613,7 +613,7 @@ public class IssueAnalyzerStepTest {
 		bucket.setSumInfo("6");
 		bucket.setStacktrace("nullpointerexception");
 		bucket.setSiteId("12");
-		bucket.setRefreshTime(new Date());
+		bucket.setEndTime(new Date());
 
 		Bucket bucket1 = new Bucket();
 		List<CacheItem> cacheItemIds1 = new ArrayList<>();
@@ -634,7 +634,7 @@ public class IssueAnalyzerStepTest {
 		bucket1.setSumInfo("6");
 		bucket1.setStacktrace("Exceptionpointerexception");
 		bucket1.setSiteId("12");
-		bucket1.setRefreshTime(new Date());
+		bucket1.setEndTime(new Date());
 
 		Bucket bucket2 = new Bucket();
 		List<CacheItem> cacheItemIds22 = new ArrayList<>();
@@ -667,7 +667,7 @@ public class IssueAnalyzerStepTest {
 		bucket2.setSumInfo("6");
 		bucket2.setStacktrace("nullpointerexception");
 		bucket2.setSiteId("12");
-		bucket2.setRefreshTime(new Date());
+		bucket2.setEndTime(new Date());
 
 		Bucket bucket3 = new Bucket();
 		List<CacheItem> cacheItemIds33 = new ArrayList<>();
@@ -687,7 +687,7 @@ public class IssueAnalyzerStepTest {
 		bucket3.setSumInfo("6");
 		bucket3.setStacktrace("nullpointerexception");
 		bucket3.setSiteId("12");
-		bucket3.setRefreshTime(new Date());
+		bucket3.setEndTime(new Date());
 
 		Bucket bucket4 = new Bucket();
 		bucket4.setCacheItemIds(cacheItemIds33);
@@ -701,7 +701,7 @@ public class IssueAnalyzerStepTest {
 		bucket4.setSumInfo("6");
 		bucket4.setStacktrace("nullpointerexception");
 		bucket4.setSiteId("12");
-		bucket4.setRefreshTime(new Date());
+		bucket4.setEndTime(new Date());
 		Bucket bucket5 = new Bucket();
 		bucket5.setCacheItemIds(cacheItemIds33);
 		bucket5.setAgentName("Wels");
@@ -714,7 +714,7 @@ public class IssueAnalyzerStepTest {
 		bucket5.setSumInfo("6");
 		bucket5.setStacktrace("nullpointerexception");
 		bucket5.setSiteId("12");
-		bucket5.setRefreshTime(new Date());
+		bucket5.setEndTime(new Date());
 
 		Bucket bucket6 = new Bucket();
 		bucket6.setCacheItemIds(cacheItemIds33);
@@ -728,7 +728,7 @@ public class IssueAnalyzerStepTest {
 		bucket6.setSumInfo("6");
 		bucket6.setStacktrace("nullpointerexception");
 		bucket6.setSiteId("12");
-		bucket6.setRefreshTime(new Date());
+		bucket6.setEndTime(new Date());
 		Bucket bucket7 = new Bucket();
 		bucket7.setCacheItemIds(cacheItemIds33);
 		bucket7.setAgentName("Wels");
@@ -741,7 +741,7 @@ public class IssueAnalyzerStepTest {
 		bucket7.setSumInfo("6");
 		bucket7.setStacktrace("nullpointerexception");
 		bucket7.setSiteId("12");
-		bucket7.setRefreshTime(new Date());
+		bucket7.setEndTime(new Date());
 		Bucket bucket8 = new Bucket();
 		bucket8.setCacheItemIds(cacheItemIds33);
 		bucket8.setAgentName("Wels");
@@ -754,7 +754,7 @@ public class IssueAnalyzerStepTest {
 		bucket8.setSumInfo("6");
 		bucket8.setStacktrace("nullpointerexception");
 		bucket8.setSiteId("12");
-		bucket8.setRefreshTime(new Date());
+		bucket8.setEndTime(new Date());
 		Bucket bucket9 = new Bucket();
 		bucket9.setCacheItemIds(cacheItemIds33);
 		bucket9.setAgentName("Wels");
@@ -767,7 +767,7 @@ public class IssueAnalyzerStepTest {
 		bucket9.setSumInfo("6");
 		bucket9.setStacktrace("nullpointerexception");
 		bucket9.setSiteId("12");
-		bucket9.setRefreshTime(new Date());
+		bucket9.setEndTime(new Date());
 		Bucket bucket10 = new Bucket();
 		bucket10.setCacheItemIds(cacheItemIds33);
 		bucket10.setAgentName("Wels");
@@ -780,7 +780,7 @@ public class IssueAnalyzerStepTest {
 		bucket10.setSumInfo("6");
 		bucket10.setStacktrace("nullpointerexception");
 		bucket10.setSiteId("12");
-		bucket10.setRefreshTime(new Date());
+		bucket10.setEndTime(new Date());
 		Bucket bucket11 = new Bucket();
 		bucket11.setCacheItemIds(cacheItemIds33);
 		bucket11.setAgentName("Wels");
@@ -793,7 +793,7 @@ public class IssueAnalyzerStepTest {
 		bucket11.setSumInfo("6");
 		bucket11.setStacktrace("nullpointerexception");
 		bucket11.setSiteId("12");
-		bucket11.setRefreshTime(new Date());
+		bucket11.setEndTime(new Date());
 		Bucket bucket12 = new Bucket();
 		bucket12.setCacheItemIds(cacheItemIds33);
 		bucket12.setAgentName("Wels");
@@ -806,7 +806,7 @@ public class IssueAnalyzerStepTest {
 		bucket12.setSumInfo("6");
 		bucket12.setStacktrace("nullpointerexception");
 		bucket12.setSiteId("12");
-		bucket12.setRefreshTime(new Date());
+		bucket12.setEndTime(new Date());
 		Bucket bucket13 = new Bucket();
 		bucket13.setCacheItemIds(cacheItemIds33);
 		bucket13.setAgentName("Wels");
@@ -819,7 +819,7 @@ public class IssueAnalyzerStepTest {
 		bucket13.setSumInfo("6");
 		bucket13.setStacktrace("nullpointerexception");
 		bucket13.setSiteId("12");
-		bucket13.setRefreshTime(new Date());
+		bucket13.setEndTime(new Date());
 		Bucket bucket14 = new Bucket();
 		bucket14.setCacheItemIds(cacheItemIds33);
 		bucket14.setAgentName("Wels");
@@ -832,7 +832,7 @@ public class IssueAnalyzerStepTest {
 		bucket14.setSumInfo("6");
 		bucket14.setStacktrace("nullpointerexception");
 		bucket14.setSiteId("12");
-		bucket14.setRefreshTime(new Date());
+		bucket14.setEndTime(new Date());
 		Bucket bucket15 = new Bucket();
 		bucket15.setCacheItemIds(cacheItemIds33);
 		bucket15.setAgentName("Wels");
@@ -845,7 +845,7 @@ public class IssueAnalyzerStepTest {
 		bucket15.setSumInfo("6");
 		bucket15.setStacktrace("nullpointerexception");
 		bucket15.setSiteId("12");
-		bucket15.setRefreshTime(new Date());
+		bucket15.setEndTime(new Date());
 		Bucket bucket16 = new Bucket();
 		bucket16.setCacheItemIds(cacheItemIds33);
 		bucket16.setAgentName("Wels");
@@ -858,7 +858,7 @@ public class IssueAnalyzerStepTest {
 		bucket16.setSumInfo("6");
 		bucket16.setStacktrace("nullpointerexception");
 		bucket16.setSiteId("12");
-		bucket16.setRefreshTime(new Date());
+		bucket16.setEndTime(new Date());
 
 
 		obj.add(bucket);
@@ -968,7 +968,7 @@ public class IssueAnalyzerStepTest {
 		bucket.setSumInfo("6");
 		bucket.setStacktrace("nullpointerexception");
 		bucket.setSiteId("12");
-		bucket.setRefreshTime(new Date());
+		bucket.setEndTime(new Date());
 		obj.add(bucket);
 
 		List<String> cacheItemIdsss= new ArrayList<>();
@@ -1058,7 +1058,7 @@ public class IssueAnalyzerStepTest {
 		bucket.setSumInfo("6");
 		bucket.setStacktrace("nullpointerexception");
 		bucket.setSiteId("12");
-		bucket.setRefreshTime(new Date());
+		bucket.setEndTime(new Date());
 		obj.add(bucket);
 
 		List<String> cacheItemIdsss= new ArrayList<>();
@@ -1113,7 +1113,7 @@ public class IssueAnalyzerStepTest {
 		bucket.setSumInfo("6");
 		bucket.setStacktrace("nullpointerexception");
 		bucket.setSiteId("12");
-		bucket.setRefreshTime(new Date());
+		bucket.setEndTime(new Date());
 		obj.add(bucket);
 
 		List<String> cacheItemIdsss= new ArrayList<>();
@@ -1169,7 +1169,7 @@ public class IssueAnalyzerStepTest {
 		bucket.setSumInfo("6");
 		bucket.setStacktrace("nullpointerexception");
 		bucket.setSiteId("12");
-		bucket.setRefreshTime(new Date());
+		bucket.setEndTime(new Date());
 		obj.add(bucket);
 
 		List<String> cacheItemIdsss= new ArrayList<>();
@@ -1260,7 +1260,7 @@ public class IssueAnalyzerStepTest {
 		bucket.setSumInfo("6");
 		bucket.setStacktrace("nullpointerexception");
 		bucket.setSiteId("12");
-		bucket.setRefreshTime(new Date());
+		bucket.setEndTime(new Date());
 		obj.add(bucket);
 
 		List<String> cacheItemIdsss= new ArrayList<>();
@@ -1316,7 +1316,7 @@ public class IssueAnalyzerStepTest {
 		bucket.setSumInfo("6");
 		bucket.setStacktrace("UnreachableBrowserException");
 		bucket.setSiteId("12");
-		bucket.setRefreshTime(new Date());
+		bucket.setEndTime(new Date());
 		obj.add(bucket);
 
 		List<String> cacheItemIdsss= new ArrayList<>();
@@ -1372,7 +1372,7 @@ public class IssueAnalyzerStepTest {
 		bucket.setSumInfo("6");
 		bucket.setStacktrace("UnreachableBrowserException");
 		bucket.setSiteId("12");
-		bucket.setRefreshTime(new Date());
+		bucket.setEndTime(new Date());
 		obj.add(bucket);
 
 		List<String> cacheItemIdsss= new ArrayList<>();
@@ -1427,7 +1427,7 @@ public class IssueAnalyzerStepTest {
 		bucket.setSumInfo("6");
 		bucket.setStacktrace("UnreachableBrowserException");
 		bucket.setSiteId("12");
-		bucket.setRefreshTime(new Date());
+		bucket.setEndTime(new Date());
 		obj.add(bucket);
 
 		List<String> cacheItemIdsss= new ArrayList<>();
